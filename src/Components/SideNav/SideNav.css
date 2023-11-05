@@ -1,0 +1,137 @@
+.SideNav{
+display: inline-flex;
+flex-direction: column;
+width: 15%;
+height:  1047px;
+flex-shrink: 0;
+background:white;
+}
+.NavHead{
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.NavHead span{
+color: #030229;
+font-family: Nunito;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+word-wrap:break-word;
+}
+
+.NavMain{
+    height: 472px;
+}
+
+.NavMain ul{
+list-style: none;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap:30px;
+}
+.NavMain ul a  li{
+    color: var(--Text, #030229) !important ;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    opacity: 0.5;
+    }
+.NavMain ul  li:first-child{
+    color: var(--Primary, #605BFF);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    opacity: 1;
+    }
+
+
+.NavMain ul li svg{
+    margin-right: 14px;
+}
+.NavLamp{
+margin: 0 auto;
+position: relative;
+width: 168px;
+height: 195px;
+flex-shrink: 0;
+    /* height: 225px; */
+}
+.rectangle{
+left: -3px;
+top: 34px;
+position: absolute;
+width: 155px;
+height: 164px;
+flex-shrink: 0;
+border-radius: 20px;
+opacity: 0.1;
+background: #80ABFF;
+}
+.object svg{
+left: 20px;
+top: 112px;
+position: absolute;
+}
+.object{
+left: 9px;
+top: 0px;
+position: absolute;
+width: 150px;
+height: 150px;
+flex-shrink: 0;
+background: #5B93FF;
+mix-blend-mode: color;
+border-radius:20px ;
+}
+.upgrade{
+    left: 5px;
+    top: 147px;
+    position: absolute;
+    width: 139px;
+    height: 33px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 11px;
+    background: var(--Primary, #605BFF);
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+/* .NavMain ul li:nth-child(1) div{
+display: inline;
+width: 53px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 0px 5px 5px 0px;
+opacity: 0.2;
+background: linear-gradient(90deg, #ACA9FF 0%, rgba(172, 169, 255, 0.00) 91.25%);
+} */
+
+
+/* left: 5px;
+    top: 147px;
+    position: absolute;
+    width: 139px;
+    height: 33px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 11px;
+    background: var(--Primary, #605BFF);
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; */
